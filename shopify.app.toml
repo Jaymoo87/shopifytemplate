@@ -1,0 +1,27 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+name = "shop-ai"
+client_id = "f95c50fed0ac5ba3b22d41ca62e22654"
+application_url = "https://sender-post-printing-forever.trycloudflare.com"
+embedded = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "write_products"
+
+[auth]
+redirect_urls = [
+  "https://sender-post-printing-forever.trycloudflare.com/auth/callback",
+  "https://sender-post-printing-forever.trycloudflare.com/auth/shopify/callback",
+  "https://sender-post-printing-forever.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2023-07"
+
+[pos]
+embedded = false
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "quickstart-5f39dcac.myshopify.com"
