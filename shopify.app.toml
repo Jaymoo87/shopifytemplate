@@ -2,7 +2,7 @@
 
 name = "shop-ai"
 client_id = "f95c50fed0ac5ba3b22d41ca62e22654"
-application_url = "https://sender-post-printing-forever.trycloudflare.com"
+application_url = "https://retrieved-invision-selective-geo.trycloudflare.com"
 embedded = true
 
 [access_scopes]
@@ -11,9 +11,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://sender-post-printing-forever.trycloudflare.com/auth/callback",
-  "https://sender-post-printing-forever.trycloudflare.com/auth/shopify/callback",
-  "https://sender-post-printing-forever.trycloudflare.com/api/auth/callback"
+  "https://retrieved-invision-selective-geo.trycloudflare.com/auth/callback",
+  "https://retrieved-invision-selective-geo.trycloudflare.com/auth/shopify/callback",
+  "https://retrieved-invision-selective-geo.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
